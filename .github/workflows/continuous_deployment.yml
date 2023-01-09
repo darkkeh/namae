@@ -4,7 +4,8 @@ on:
     branches: [main]
     workflows: [Continuous Integration]
     types: [completed]
-
+  workflow_dispatch:
+  
 jobs:
   release:
     runs-on: ubuntu-latest
