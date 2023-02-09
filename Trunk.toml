@@ -1,4 +1,4 @@
 [build]
 target = "index.html"
 dist = "docs"
-public_url = "/"
+public_url = "/namae/"
