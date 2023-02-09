@@ -1,4 +1,4 @@
-pub const ADEJCTIVES: &'static [&'static str] = &[
+pub const ADEJCTIVES: &[&str] = &[
     "Abandoned",
     "Able",
     "Absolute",

@@ -20,7 +20,7 @@ pub fn generate_name() -> String {
     let idx = floor(random() * adjectives.len() as f64) as usize;
     let adjective = adjectives[idx].to_string();
 
-    let name = format!("{} {}", adjective, animal);
+    let name = format!("{adjective} {animal}");
     name
 }
 

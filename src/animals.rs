@@ -1,4 +1,4 @@
-pub const ANIMALS: &'static [&'static str] = &[
+pub const ANIMALS: &[&str] = &[
     "Aardvark",
     "Elephant",
     "Albatross",
