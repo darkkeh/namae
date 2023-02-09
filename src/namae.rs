@@ -1,9 +1,8 @@
 use js_sys::Math::*;
 use wasm_bindgen::prelude::*;
 
-
-use crate::animals::ANIMALS;
 use crate::adjectives::ADEJCTIVES;
+use crate::animals::ANIMALS;
 
 const CHARS: &[u8] = b"ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -21,7 +20,7 @@ pub fn generate_name() -> String {
     let idx = floor(random() * adjectives.len() as f64) as usize;
     let adjective = adjectives[idx].to_string();
 
-    let name = format!("{} {}", adjective, animal);
+    let name = format!("{adjective} {animal}");
     name
 }
 
@@ -34,4 +33,3 @@ pub fn fill_vec(char: char, data: &[&'static str]) -> Vec<String> {
     }
     vec
 }
-
