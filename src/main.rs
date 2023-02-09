@@ -1,6 +1,6 @@
-mod namae;
-mod animals;
 mod adjectives;
+mod animals;
+mod namae;
 
 use namae::generate_name;
 use yew::prelude::*;

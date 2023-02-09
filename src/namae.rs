@@ -1,9 +1,8 @@
 use js_sys::Math::*;
 use wasm_bindgen::prelude::*;
 
-
-use crate::animals::ANIMALS;
 use crate::adjectives::ADEJCTIVES;
+use crate::animals::ANIMALS;
 
 const CHARS: &[u8] = b"ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -34,4 +33,3 @@ pub fn fill_vec(char: char, data: &[&'static str]) -> Vec<String> {
     }
     vec
 }
-
